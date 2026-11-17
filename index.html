@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Currículo</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="curriculo">
+
+  <header class="cabecalho">
+    <div class="perfil">
+      <div class="foto-container">
+        <img id="profilePhoto" src="" alt="">
+      </div>
+      <div class="dados-perfil">
+        <span class="etiqueta" id="metadata"></span>
+        <h1 id="fullName"></h1>
+        <h2 id="professionalTitle"></h2>
+        <p id="age"></p>
+        <p id="location"></p>
+        <p class="contatos" id="email"></p>
+        <p class="contatos" id="phone"></p>
+        <span class="selo" id="availabilityBadge"></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="secao">
+    <h2 class="titulo-secao">🌸 Resumo Profissional</h2>
+    <p class="texto" id="summaryDescription"></p>
+    <div class="info-extra" id="summaryExtra"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">💼 Experiência Profissional</h2>
+    <div id="experienceList"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">🎓 Formação</h2>
+    <div id="educationList"></div>
+  </section>
+
+  <section class="secao" id="coursesSection">
+    <h2 class="titulo-secao">📚 Cursos</h2>
+    <div id="coursesList"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">💻 Habilidades</h2>
+    <h3 class="sub">Técnicas</h3>
+    <div class="conhecimentos" id="technicalSkills"></div>
+    <h3 class="sub">Comportamentais</h3>
+    <div class="conhecimentos comportamental" id="behavioralSkills"></div>
+    <h3 class="sub">Ferramentas</h3>
+    <div class="conhecimentos" id="toolsSkills"></div>
+    <h3 class="sub">Metodologias</h3>
+    <div class="conhecimentos" id="methodologiesSkills"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">🌎 Idiomas</h2>
+    <div class="idiomas" id="languagesList"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">🏆 Certificações</h2>
+    <div id="certificationsList"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">🚀 Projetos</h2>
+    <div id="projectsList"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">✨ Informações Adicionais</h2>
+    <div class="info-extra" id="additionalInfo"></div>
+  </section>
+
+  <section class="secao">
+    <h2 class="titulo-secao">🎯 Preferências</h2>
+    <div class="conhecimentos" id="preferencesList"></div>
+  </section>
+
+  <section class="secao contato">
+    <h2 class="titulo-secao">📩 Entre em contato</h2>
+    <p class="nome-contato" id="contactName"></p>
+    <p class="email-contato" id="contactEmail"></p>
+    <a class="botao" id="contactButton" href="">Enviar um e-mail</a>
+  </section>
+
+  <footer>
+    <p id="footerName"></p>
+    <p class="frase-footer" id="footerPhrase"></p>
+  </footer>
+
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

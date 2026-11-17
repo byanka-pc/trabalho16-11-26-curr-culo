@@ -1,0 +1,42 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background: #d6f2ec; padding: 20px 10px; }
+.curriculo { max-width: 650px; margin: auto; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+.cabecalho { background: linear-gradient(135deg, #2a0a3a, #6d28d9, #db2777); color: white; padding: 35px 25px; text-align: center; }
+.perfil { display: flex; flex-direction: column; align-items: center; gap: 15px; }
+.foto-container { display: flex; justify-content: center; }
+.foto-container img { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 5px solid white; box-shadow: 0 10px 25px rgba(0,0,0,0.3); background: #a78bfa; }
+.etiqueta { background: rgba(255,255,255,0.2); padding: 5px 14px; border-radius: 20px; font-size: 10px; font-weight: 700; letter-spacing: 1px; }
+.dados-perfil h1 { font-size: 24px; margin: 12px 0 5px; }
+.dados-perfil h2 { font-size: 13px; font-weight: 500; color: #e9d5ff; margin-bottom: 8px; }
+.dados-perfil p { font-size: 12px; color: #ddd6fe; margin-bottom: 5px; }
+.contatos { color: white !important; font-weight: 500; }
+.selo { display: inline-block; margin-top: 10px; background: #22c55e; color: white; font-size: 11px; font-weight: 600; padding: 5px 14px; border-radius: 20px; }
+.secao { padding: 22px 25px; border-bottom: 1px solid #f1eef5; }
+.titulo-secao { font-size: 16px; color: #4c1d95; margin-bottom: 12px; }
+.texto { font-size: 13px; color: #666; line-height: 1.8; }
+.sub { font-size: 12px; color: #7c3aed; margin: 15px 0 8px; }
+.info-extra { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.info-extra span { background: #faf7ff; padding: 10px 12px; border-radius: 10px; font-size: 12px; color: #555; }
+.card { background: #faf7ff; border: 1px solid #f1eef5; border-radius: 12px; padding: 15px; margin-bottom: 10px; }
+.card.cinza { background: #f8f5ff; text-align: center; }
+.card h3 { font-size: 14px; color: #333; margin: 8px 0 3px; }
+.card p { font-size: 12px; color: #666; line-height: 1.6; }
+.tech { color: #7c3aed !important; font-weight: 600; margin-top: 8px; }
+.tag { display: inline-block; font-size: 10px; font-weight: 700; padding: 4px 10px; border-radius: 20px; margin-bottom: 5px; }
+.tag-roxa { background: #e9d5ff; color: #7c3aed; }
+.tag-verde { background: #dcfce7; color: #16a34a; }
+.conhecimentos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.conhecimentos span { background: #f3e8ff; color: #6d28d9; font-size: 12px; font-weight: 500; padding: 10px; border-radius: 10px; text-align: center; }
+.comportamental span { background: #fce7f3; color: #be185d; }
+.idiomas { display: flex; flex-direction: column; gap: 10px; }
+.idioma { display: flex; justify-content: space-between; background: #f3e8ff; padding: 12px; border-radius: 10px; font-size: 12px; }
+.idioma span { color: #7c3aed; }
+.contato { text-align: center; }
+.nome-contato { font-weight: 600; font-size: 13px; color: #333; }
+.email-contato { font-size: 12px; color: #888; margin-bottom: 14px; }
+.botao { display: inline-block; background: #7c3aed; color: white; text-decoration: none; font-size: 12px; font-weight: 600; padding: 10px 20px; border-radius: 20px; }
+.botao:hover { background: #db2777; }
+footer { background: #2a0a3a; color: white; text-align: center; padding: 18px; }
+footer p { font-size: 12px; }
+.frase-footer { font-size: 11px; color: #c4b5d6; margin-top: 4px; }
+@media (max-width: 600px) { .conhecimentos { grid-template-columns: 1fr; } .dados-perfil h1 { font-size: 20px; } }
